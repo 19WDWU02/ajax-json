@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/19WDWU02/ajax-json/issues"
   },
-  "homepage": "https://github.com/19WDWU02/ajax-json#readme"
+  "homepage": "https://github.com/19WDWU02/ajax-json#readme",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
 }
