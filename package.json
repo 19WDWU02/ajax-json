@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/19WDWU02/ajax-json#readme",
   "dependencies": {
-    "jquery": "^3.4.1"
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }

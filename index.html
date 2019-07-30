@@ -3,14 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>Ajax & JSON</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
   <body>
-    <h1>Ajax & JSON</h1>
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h1>Ajax & JSON</h1>
+        </div>
+      </div>
+      <div class="row text-center mb-3">
+        <div class="col">
+          <button id="getPeople" class="btn btn-primary">Get People</button>
+        </div>
+      </div>
+      <div id="peopleContainer" class="row mb-3">
 
-    <button id="getPeople">Get People</button>
+      </div>
+    </div>
 
-    
+
+
+
+
     <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js" charset="utf-8"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="js/script.js" charset="utf-8"></script>
   </body>
 </html>
