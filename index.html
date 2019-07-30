@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Ajax & JSON</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/jquery-ui-dist/jquery-ui.min.css">
   </head>
   <body>
     <div class="container">
@@ -17,6 +18,15 @@
           <button id="getPeople" class="btn btn-primary">Get People</button>
         </div>
       </div>
+      <div class="row text-center mb-3">
+        <div class="col">
+          <p>
+            <label for="age">Age Range:</label>
+          </p>
+          <p id="currentRange">0 - 100</p>
+          <div id="ageRangeSlider"></div>
+        </div>
+      </div>
       <div id="peopleContainer" class="row mb-3">
 
       </div>
@@ -27,6 +37,7 @@
 
 
     <script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+    <script src="node_modules/jquery-ui-dist/jquery-ui.min.js" charset="utf-8"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js" charset="utf-8"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="js/script.js" charset="utf-8"></script>
